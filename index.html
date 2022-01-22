@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ru">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wishmarket - сервис по созданию и исполнению желаний</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+</head>
+<body id="main-page">
+<button href="#" class="question"><img src="img/question.svg" alt="question"></button>
+<section class="main">
+  <header class="header header-main" id="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <a href="index.html" class="header__logo">
+            <img src="img/logo-h.png" alt="Wishmarket">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <button class="add-wish d-flex align-items-center" data-toggle="modal" data-target="#news-wish"><img src="img/plus.svg" alt="add-wish" class="mr-2"><p>Добавить желание</p></button>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center">
+          <a href="presents.html" title="Wishmarket рукомендует" class="header__link like"><img src="img/like.png" alt="like"></a>
+          <a href="#" title="Личный кабинет" class="header__link d-flex align-items-center">
+            <div class="header__icon">
+              <img src="img/user.svg" alt="user">
+            </div>
+            <p class="ml-3">Иван</p>
+          </a>
+          <a href="wishlists.html" title="Вишлисты" class="header__link">
+            <div class="header__icon d-flex">
+              <img src="img/add.svg" alt="add"><sup>3</sup>
+            </div>
+          </a>
+          <a href="cart.html" title="Корзина" class="header__link">
+            <div class="header__icon d-flex">
+              <img src="img/cart.svg" alt="cart"><sup>0</sup>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="header-mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center justify-content-between">
+            <div class="menu_container">
+              <a href="#" class="mobile_menu"><img src="img/burger.png" alt="burger"></a>
+            </div>
+            <a href="index.html" class="header-mobile__logo"><img src="img/logo-h.png" alt="Wishmarket" class="w-100"></a>
+            <button class="header-mobile__add" data-toggle="modal" data-target="#news-wish"><img src="img/plus.svg" alt="add" class="w-100"></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 text-center col-md-5">
+        <img src="img/main-img.png" alt="Image" class="main-image">
+      </div>
+      <div class="offset-xl-1 col-lg-5 offset-md-1 col-md-5">
+        <div class="main__offer">
+          <h1>Wishmarket</h1>
+          <p class="second-title">Мечтать не вредно</p>
+          <p>Сервис по созданию и исполнению желаний. Создавай вишлисты, делись с друзьями и наслаждайся тем, что твои мечты сбываются!</p>
+          <a href="#info" class="btn1 go">Как это работает?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="info" id="info">
+  <div class="answer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h2>Что такое вишлист?</h2>
+          <p>Вишлист - это список твоих желаний от любимого мыла до будущего автомобиля ;) <br><br>
+          Ты можешь хранить в нем любые свои желания с указанием ссылок на конкретный товар в конкретном магазине, а можешь просто описать желаемый подарок без ссылки. <br><br>
+          Ты можешь создавать свои вишлисты под конкретные поводы, например, день рождения, новый год или свадьба, а можешь создать общий лист под все свои хотелки.  <br>
+          Вишлистов может быть неограниченное количество.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="info__bg">
+    <div class="site">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Для чего нужен наш сайт?</h2>
+            <h3>1. Создание своих вишлистов</h3>
+            <p>Ты создаешь вишлисты под праздники или события и указываешь все что ты хочешь. В идеале пользоваться сервисом нужно постоянно. Как только ты поймал себя на мысли что хочешь чего-то в будущем для себя или получить в подарок -сразу фиксируешь это в свой вишлист. Таким образом уже за пару недель ты соберешь огромный список и будешь во всеоружии при вопросе “что тебе подарить на день рождения?”<br><br></p>
+            <h3>2. Планирование своего бюджета на крупные праздники</h3>
+            <p>Когда ты собираешь на новый год в компанию невольно встает вопрос что дарить друзьям и сколько на это нужно денег. Если ты заранее пройдешься по вишлистам своих друзей и забронируешь подарки, то в твоей корзине образуется общая сумма всех подарков с указанием для кого ты выбрал подарок, стоимость подарка и ссылка. Таким образом, подготовка к празднику не будет вводить тебя в стресс и ты спокойно в течение, например, месяца будешь покупать подарки для друзей буквально в пару кликов перейдя по ссылке. <br><br></p>
+            <h3>3. Сюрпризы для друзей</h3>
+            <p>Это самая классная опция, на наш взгляд, которая есть у нашего сервиса. Поскольку ты подписан на вишлисты своих друзей ты всегда внезапно можешь направить им сюрприз в виде горячо желаемого ими подарка. Например, твоя подруга приболела и ты хочешь как-то ее подбодрить. Понимаешь, что бюджет у тебя небольшой, но приятно сделать очень хочется. Выбираешь желание из ее списка в районе 500-600 рублей, например крем для рук и соль для ванны. Заказываешь по ссылке и отправляешь ей курьером от магазина (доставки сейчас везде). Она удивится подарку и будет счастлива. В итоге друг счастлив, что получил желание из списка, а ты счастлив, что за небольшую сумму смог порадовать друга. Win-win!<br><br></p>
+            <h3>4. Планирование бюджета к событиям и мероприятиям</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Команда</h2>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="team__item d-flex align-items-center">
+              <img src="img/t1.png" alt="Марина Наумова" class="team__img">
+              <div>
+                <h3>Марина Наумова</h3>
+                <p>Сооснователь и product-manager</p>
+                <a href="https://www.instagram.com/mur_naum/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@mur_naum</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="team__item d-flex align-items-center">
+              <img src="img/t2.png" alt="Мария Михнян" class="team__img">
+              <div>
+                <h3>Мария Михнян</h3>
+                <p>Сооснователь и идейный вдохновитель проекта</p>
+                <a href="https://www.instagram.com/maria_grubalskaya/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@maria_grubalskaya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="team__item d-flex align-items-center">
+              <img src="img/t3.png" alt="Алена Ганичева" class="team__img">
+              <div>
+                <h3>Алена Ганичева</h3>
+                <p>Web-дизайнер проекта</p>
+                <a href="https://www.instagram.com/lyflatout/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@lyflatout</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="team__item d-flex align-items-center">
+              <img src="img/t4.png" alt="Дарья Тузова" class="team__img">
+              <div>
+                <h3>Дарья Тузова</h3>
+                <p>Продюсер проекта</p>
+                <a href="https://www.instagram.com/dashakonov/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@dashakonov</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="mobile-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="mobile-info__block">
+              <button class="mobile-info__block_btn mobile-info__block_btn1 d-flex justify-content-between align-items-center">
+                <p>Что такое вишлист?</p>
+                <img src="img/arrow-btn.svg" alt="arrow" class="mobile-info__block_img mobile-info__block_img1">
+              </button>
+              <p class="mobile-info__block_text mobile-info__block_text1">Вишлист - это список твоих желаний от любимого мыла до будущего автомобиля ;) <br><br>
+              Ты можешь хранить в нем любые свои желания с указанием ссылок на конкретный товар в конкретном магазине, а можешь просто описать желаемый подарок без ссылки. <br><br>
+              Ты можешь создавать свои вишлисты под конкретные поводы, например, день рождения, новый год или свадьба, а можешь создать общий лист под все свои хотелки.  <br>
+              Вишлистов может быть неограниченное количество.</p>
+            </div>
+            <div class="mobile-info__block">
+              <button class="mobile-info__block_btn mobile-info__block_btn2 d-flex justify-content-between align-items-center">
+                <p>Для чего нужен сайт?</p>
+                <img src="img/arrow-btn.svg" alt="arrow" class="mobile-info__block_img mobile-info__block_img2">
+              </button>
+              <div class="mobile-info__block_text mobile-info__block_text2">
+                <div class="owl-carousel owl-theme owl-site">
+                  <div class="item">
+                    <h3>1. Создание своих вишлистов</h3>
+                    <p><br>Ты создаешь вишлисты под праздники или события и указываешь все что ты хочешь. В идеале пользоваться сервисом нужно постоянно. Как только ты поймал себя на мысли что хочешь чего-то в будущем для себя или получить в подарок -сразу фиксируешь это в свой вишлист. <br><br> Таким образом уже за пару недель ты соберешь огромный список и будешь во всеоружии при вопросе “что тебе подарить на день рождения?”</p>
+                  </div>
+                  <div class="item">
+                    <h3>2. Планирование своего бюджета на крупные праздники</h3>
+                    <p><br>Когда ты собираешь на новый год в компанию невольно встает вопрос что дарить друзьям и сколько на это нужно денег. <br>
+                    Если ты заранее пройдешься по вишлистам своих друзей и забронируешь подарки, то в твоей корзине образуется общая сумма всех подарков с указанием для кого ты выбрал подарок, стоимость подарка и ссылка. <br>
+                    Таким образом, подготовка к празднику не будет вводить тебя в стресс и ты спокойно в течение, например, месяца будешь покупать подарки для друзей буквально в пару кликов перейдя по ссылке. </p>
+                  </div>
+                  <div class="item">
+                    <h3>3. Сюрпризы для друзей</h3>
+                    <p><br>Это самая классная опция, на наш взгляд, которая есть у нашего сервиса. Поскольку ты подписан на вишлисты своих друзей ты всегда внезапно можешь направить им сюрприз в виде горячо желаемого ими подарка. <br>
+                    Например, твоя подруга приболела и ты хочешь как-то ее подбодрить. Понимаешь, что бюджет у тебя небольшой, но приятно сделать очень хочется. Выбираешь желание из ее списка в районе 500-600 рублей, например крем для рук и соль для ванны. Заказываешь по ссылке и отправляешь ей курьером от магазина (доставки сейчас везде). Она удивится подарку и будет счастлива. В итоге друг счастлив, что получил желание из списка, а ты счастлив, что за небольшую сумму смог порадовать друга. Win-win! <br><br></p>
+                    <h3>4. Планирование бюджета к событиям и мероприятиям</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-team">
+          <div class="row">
+            <div class="col-12">
+              <h2>Команда</h2>
+              <div class="owl-carousel owl-theme owl-team">
+                <div class="item text-center">
+                  <img src="img/t1.png" alt="Марина Наумова" class="mobile-team__img">
+                  <h3>Марина Наумова</h3>
+                  <p>Сооснователь и product-manager</p>
+                  <a href="https://www.instagram.com/mur_naum/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@mur_naum</a>
+                </div>
+                <div class="item text-center">
+                  <img src="img/t2.png" alt="Мария Михнян" class="mobile-team__img">
+                  <h3>Мария Михнян</h3>
+                  <p>Сооснователь и идейный вдохновитель проекта</p>
+                  <a href="https://www.instagram.com/maria_grubalskaya/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@maria_grubalskaya</a>
+                </div>
+                <div class="item text-center">
+                  <img src="img/t3.png" alt="Алена Ганичева" class="mobile-team__img">
+                  <h3>Алена Ганичева</h3>
+                  <p>Web-дизайнер проекта</p>
+                  <a href="https://www.instagram.com/lyflatout/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@lyflatout</a>
+                </div>
+                <div class="item text-center">
+                  <img src="img/t4.png" alt="Дарья Тузова" class="mobile-team__img">
+                  <h3>Дарья Тузова</h3>
+                  <p>Продюсер проекта</p>
+                  <a href="https://www.instagram.com/dashakonov/" target="_blank"><img src="img/t-insta.svg" alt="insta" class="mr-2">@dashakonov</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="support">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Поддержи нас</h2>
+            <h3>Если тебе нравится наш сервис - поддержи нас!</h3>
+            <p>Это можно сделать тремя способами: <br>
+            1. Переходи по ссылке на <a href="https://boomstarter.ru/projects/Wishmarket/wishmarket_-_servis_po_sozdaniyu_i_ispolneniyu_zhelaniy" target="_blank">boomstarter</a>, там есть классное видео о нас.<br>
+            2. Расскажи о нас в инстаграм. Наш аккаунт <a href="https://www.instagram.com/wishmarket.me/?hl=ru" target="_blank">@wishmarket.me</a><br>
+            3. Просто расскажи про наш сервис близким и друзьям при личной встрече и проследи, чтобы они зарегистрировались :)  <br><br>
+            Мы будем очень рады новым пользователем и благодарны тебе.</p>
+            <a href="https://boomstarter.ru/projects/Wishmarket/wishmarket_-_servis_po_sozdaniyu_i_ispolneniyu_zhelaniy" target="_blank" class="btn1">Поддержать команду</a>
+          </div>
+        </div>
+        <a href="#header" class="up go"><img src="img/up.svg" alt="up" class="mr-2">Наверх</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-column align-items-center">
+        <a href="#" class="footer__logo">Wishmarket</a>
+        <div class="footer__social d-flex align-items-center flex-column">
+          <a href="https://www.instagram.com/wishmarket.me/?hl=ru" target="_blank" class="btn1 border d-flex align-items-center insta">
+            <i class="fab fa-instagram mr-2"></i>
+            <p>Мы в Инстаграм</p>
+          </a>
+          <a href="https://www.t.me/mur_naum/" target="_blank" class="btn1 border d-flex align-items-center">
+            <img src="img/f-teleg.svg" alt="telegram"  class="mr-4">
+            <p>Напиши нам</p>
+          </a>
+        </div>
+        <div class="footer__credits text-center">
+          <p>© wishmarket 2020</p>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- Мобильное меню -->
+
+<div class="mobile_menu_container">
+  <div class="mobile_menu_content">
+    <a href="#" class="close"><img src="img/close.svg" alt="close"></a>
+    <!-- <div class="mobile-registration">
+      <p class="mobile-registration__title">Войдите в аккаунт</p>
+      <button class="btn1">Войти</button>
+      <button class="btn1 border">Зарегистрироваться</button>
+    </div> -->
+    <ul>
+      <li> 
+      <li><a href="presents.html"><img src="img/b1.svg" alt="icon" class="mr-2">Рекомендации</a></li>
+      <li><a href="#"><img src="img/b2.svg" alt="icon" class="mr-2">Личный кабинет</a></li>
+      <li><a href="wishlists.html"><img src="img/b3.svg" alt="icon" class="mr-2">Мои вишлисты</a></li>
+      <li><a href="cart.html"><img src="img/b4.svg" alt="icon" class="mr-2">Моя корзина</a></li>
+      <li><a href="#"><img src="img/b5.svg" alt="icon" class="mr-2">Выйти </a></li>
+    </ul>
+  </div>
+</div>
+<div class="mobile_menu_overlay"></div>
+
+
+
+
+
+
+
+<!-- Создание нового желания -->
+<div class="modal fade modal-edit" id="news-wish" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="img/close.svg" alt="close"></button>
+      <h2>Создание нового желания</h2>
+      <h3>Ссылка на ваше желание</h3>
+      <input type="text" placeholder="Вставьте ссылку">
+      <h3>Название</h3>
+      <input type="text" placeholder="Введите название">
+      <h3>Фото</h3>
+      <div class="modal-photo d-flex align-items-center justify-content-center flex-column column">
+        <img src="img/photo.svg" alt="photo" class="modal-photo__icon">
+        <img id="blah" src="#" alt=" " />
+        <div class="modal-photo__overflow"></div>
+        <input type='file' id="imgInp" />
+        <label for="imgInp" class="modal-photo__label">Добавить фото</label>
+      </div>
+      <h3>Описание</h3>
+      <textarea placeholder="Введите описание"></textarea>
+      <h3>Стоимость желания</h3>
+      <input type="text" placeholder="Введите цену">
+      <h3>Выберите вишлист</h3>
+      <div>
+        <div class="modal-edit__list">
+          <div class="modal-edit__list__cover" style="background: url(img/w1.png) no-repeat center center / cover;">
+            <div class="modal-edit__list__cover_overflow d-flex align-items-center justify-content-center">
+              <img src="img/success.svg" alt="success">
+            </div>
+          </div>
+          <p class="mt-2 text-center">Новый год</p>
+        </div>
+        <div class="modal-edit__list">
+          <div class="modal-edit__list__cover" style="background: url(img/w2.png) no-repeat center center / cover;">
+            <div class="modal-edit__list__cover_overflow d-flex align-items-center justify-content-center">
+              <img src="img/success.svg" alt="success">
+            </div>
+          </div>
+          <p class="mt-2 text-center">ДР</p>
+        </div>
+        <div class="modal-edit__list">
+          <div class="modal-edit__list__cover" style="background: url(img/w3.png) no-repeat center center / cover;">
+            <div class="modal-edit__list__cover_overflow d-flex align-items-center justify-content-center">
+              <img src="img/success.svg" alt="success">
+            </div>
+          </div>
+          <p class="mt-2 text-center">8 марта</p>
+        </div>
+        <div class="modal-edit__list">
+          <div class="modal-edit__list__cover" style="background: url(img/w4.png) no-repeat center center / cover;">
+            <div class="modal-edit__list__cover_overflow d-flex align-items-center justify-content-center">
+              <img src="img/success.svg" alt="success">
+            </div>
+          </div>
+          <p class="mt-2 text-center">Др подруги</p>
+        </div>
+      </div>
+      <button class="btn1">Добавить</button>
+    </div>  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="js/jqueryUI.js"></script>
+  <script src="js/touchpunch.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
